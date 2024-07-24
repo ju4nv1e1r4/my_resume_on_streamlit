@@ -19,9 +19,9 @@ def main():
         st.caption('Você pode me contatar através de:')
         st.markdown(config.info.phone)
         st.markdown(config.info.mail)
-        st.markdown(config.info.github)
-        st.markdown(config.info.medium)
-        st.markdown(config.info.linkedin)
+        st.link_button('Github', config.info.github)
+        st.link_button('Blog on Medium', config.info.medium)
+        st.link_button('LinkedIn', config.info.linkedin)
 
         st.markdown('>### **Educação**')
         st.markdown(config.education.faculdade)
@@ -52,6 +52,28 @@ def main():
         st.markdown(config.info.about_me)
         st.divider()
 
+        st.markdown('>### Projetos')
+
+        st.markdown(':purple[ETL]')
+        st.link_button('Repositório', config.projects.etl)
+        st.markdown(config.projects.elt_vocaliza)
+
+        st.markdown(':purple[Manufacturing Defects]')
+        st.markdown(config.projects.manufacturing_defects)
+        st.markdown(config.projects.ds_manufacturing)
+
+        st.markdown(':purple[ChatBot: GPT 3.5 Turbo]')
+        st.markdown(config.projects.prompt_eng)
+        st.markdown(config.projects.llm_gpt)
+
+        st.markdown(':purple[Lung Cancer: Predict]')
+        st.markdown(config.projects.lung_cancer_predict)
+        st.markdown(config.projects.ds_lung)
+        
+        st.markdown(':purple[Heart Diseases: Predict]')
+        st.markdown(config.projects.heart_diseases)
+        st.markdown(config.projects.ds_heart)
+
         df_hs = pd.DataFrame(dict(
             r = [3, 3, 2, 1, 2, 4, 4, 
                  2, 2, 3, 1, 3, 3, 2], 
@@ -71,13 +93,6 @@ def main():
         st.markdown('>### Soft Skills :heart:')
         st.plotly_chart(fig_soft)
 
-        st.markdown('>### Projetos')
-
-        st.markdown(config.projects.manufacturing_defects)
-        st.markdown(config.projects.etl)
-        st.markdown(config.projects.prompt_eng)
-        st.markdown(config.projects.lung_cancer_predict)
-        st.markdown(config.projects.heart_diseases)
 
 
 

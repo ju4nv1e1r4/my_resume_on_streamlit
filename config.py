@@ -81,8 +81,41 @@ class JobHome:
 
 class projects:
      
-     manufacturing_defects = 'Manufacturing Defects: https://github.com/ju4nv1e1r4/Manufacturing_Defects'
-     lung_cancer_predict = 'Lung Cancer Prediction: https://github.com/ju4nv1e1r4/lung_cancer_prediction'
-     heart_diseases = 'Heart Diseases: https://github.com/ju4nv1e1r4/Heart_Failure-Prediction'
-     prompt_eng = 'Chatbot with GPT 3.5 Turbo: https://github.com/ju4nv1e1r4/prompt_eng_AI'
-     etl = 'ETL (Freelance): https://github.com/ju4nv1e1r4/data_collector_api_rest'
+     manufacturing_defects = 'https://github.com/ju4nv1e1r4/Manufacturing_Defects'
+     ds_manufacturing = '''
+    > O principal objetivo deste projeto é prever defeitos em máquinas para reduzir o downtime,
+    melhorar a eficiência operacional e diminuir os custos de manutenção. Neste projeto irei tomar
+    ações baseadas na metodologia CRISP-DM. A idéia central é aprender, portanto, irei executar
+    o ciclo completo de um projeto tradicional de ciência de dados.
+    '''
+     
+     lung_cancer_predict = 'https://github.com/ju4nv1e1r4/lung_cancer_prediction'
+     ds_lung = '''
+    > Este projeto é uma análise e implementação de um modelo de machine learning para previsão
+    de câncer de pulmão. Foi desenvolvido para fins educacionais, com o objetivo de aprender e
+    praticar técnicas de preprocessamento de dados, treinamento de modelos e avaliação de
+    desempenho.
+    '''
+     
+     heart_diseases = 'https://github.com/ju4nv1e1r4/Heart_Failure-Prediction'
+     ds_heart = '''
+    > Este projeto visa desenvolver um algoritmo de Machine Learning para prever a tendência de uma
+    pessoa desenvolver algum tipo de doença cardíaca com base em fatores clínicos e laboratoriais.
+    '''
+     
+     prompt_eng = 'https://github.com/ju4nv1e1r4/prompt_eng_AI'
+     llm_gpt = '''
+    > Este projeto tem como objetivo automatizar tarefas utilizando a API da OpenAI GPT, além de
+    calcular os custos associados com base nos tokens utilizados no prompt. O projeto está em
+    constante evolução, visando meu aprendizado contínuo e a melhoria da eficiência na
+    automação de tarefas.
+    '''
+     
+     etl = 'https://github.com/ju4nv1e1r4/data_collector_api_rest'
+     elt_vocaliza = '''
+    > Um serviço prestado para uma agencia de marketing digital.
+    Requisição/coleta de dados via API REST da Yampi (dooki), tratamento dos dados e
+    transformação para um formato tabular, carga em ambiente cloud (instância EC2) e
+    automação do processo de (ETL) usando schedule, (execução do processo na AWS
+    usando python).
+    '''
