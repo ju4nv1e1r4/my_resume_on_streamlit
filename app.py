@@ -76,13 +76,13 @@ def main():
         st.link_button('Repositório', config.projects.etl)
         st.markdown(config.projects.elt_vocaliza)
 
+        st.markdown(':blue[Pokerbot]')
+        st.link_button('Repositório', config.projects.prompt_eng)
+        st.markdown(config.projects.llm_gpt)
+
         st.markdown(':blue[Manufacturing Defects: Predict]')
         st.link_button('Repositório', config.projects.manufacturing_defects)
         st.markdown(config.projects.ds_manufacturing)
-
-        st.markdown(':blue[ChatBot: GPT 3.5 Turbo]')
-        st.link_button('Repositório', config.projects.prompt_eng)
-        st.markdown(config.projects.llm_gpt)
 
         st.markdown(':blue[Lung Cancer: Predict]')
         st.link_button('Repositório', config.projects.lung_cancer_predict)

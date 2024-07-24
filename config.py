@@ -103,7 +103,7 @@ class projects:
     pessoa desenvolver algum tipo de doença cardíaca com base em fatores clínicos e laboratoriais.
     '''
      
-     prompt_eng = 'https://github.com/ju4nv1e1r4/prompt_eng_AI'
+     prompt_eng = 'https://github.com/ju4nv1e1r4/pokerbot'
      llm_gpt = '''
     > Este projeto tem como objetivo automatizar tarefas utilizando a API da OpenAI GPT, além de
     calcular os custos associados com base nos tokens utilizados no prompt. O projeto está em
