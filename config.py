@@ -19,9 +19,9 @@ class info:
     
     phone = ':calling: +55 (85) 99274-6148'
     mail = ':email: juanvieira1@yahoo.com'
-    github = ':black_cat: www.github.com/ju4nv1e1r4/'
-    medium = ':house: www.medium.com/@ju4nv1e1r4/'
-    linkedin = ':globe_with_meridians: www.linkedin.com/in/juanvieira85/'
+    github = 'www.github.com/ju4nv1e1r4/'
+    medium = ':www.medium.com/@ju4nv1e1r4/'
+    linkedin = 'www.linkedin.com/in/juanvieira85/'
 
 
 
