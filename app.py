@@ -46,6 +46,24 @@ def main():
         st.markdown(config.JobHome.periodo)
         st.markdown(config.JobHome.atividade)
 
+        df_hs = pd.DataFrame(dict(
+            r = [3, 3, 2, 1, 2, 4, 4, 
+                 2, 2, 3, 1, 3, 3, 2], 
+            theta = config.skills.hard_skills))
+        
+        fig_hard = px.line_polar(df_hs, r='r', theta='theta', line_close=True)
+        fig_hard.update_traces(fill='toself')
+        st.markdown('>### Hard Skills :brain:')
+        st.plotly_chart(fig_hard)
+
+        df_ss = pd.DataFrame(dict(
+            r = [3, 4, 3, 5, 4, 4, 3, 4, 3, 2, 3, 4, 4, 3, 3], 
+            theta = config.skills.soft_skills))
+        
+        fig_soft = px.line_polar(df_ss, r='r', theta='theta', line_close=True)
+        fig_soft.update_traces(fill='toself')
+        st.markdown('>### Soft Skills :heart:')
+        st.plotly_chart(fig_soft)
        
     with frame2:
         st.markdown(config.info.my_name)
@@ -74,24 +92,6 @@ def main():
         st.link_button('Repositório', config.projects.heart_diseases)
         st.markdown(config.projects.ds_heart)
 
-        df_hs = pd.DataFrame(dict(
-            r = [3, 3, 2, 1, 2, 4, 4, 
-                 2, 2, 3, 1, 3, 3, 2], 
-            theta = config.skills.hard_skills))
-        
-        fig_hard = px.line_polar(df_hs, r='r', theta='theta', line_close=True)
-        fig_hard.update_traces(fill='toself')
-        st.markdown('>### Hard Skills :brain:')
-        st.plotly_chart(fig_hard)
-
-        df_ss = pd.DataFrame(dict(
-            r = [3, 4, 3, 5, 4, 4, 3, 4, 3, 2, 3, 4, 4, 3, 3], 
-            theta = config.skills.soft_skills))
-        
-        fig_soft = px.line_polar(df_ss, r='r', theta='theta', line_close=True)
-        fig_soft.update_traces(fill='toself')
-        st.markdown('>### Soft Skills :heart:')
-        st.plotly_chart(fig_soft)
 
 
 
