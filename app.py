@@ -54,23 +54,23 @@ def main():
 
         st.markdown('>### Projetos')
 
-        st.markdown(':purple[ETL]')
+        st.markdown(':blue[ETL]')
         st.link_button('Repositório', config.projects.etl)
         st.markdown(config.projects.elt_vocaliza)
 
-        st.markdown(':purple[Manufacturing Defects]')
+        st.markdown(':blue[Manufacturing Defects: Predict]')
         st.link_button('Repositório', config.projects.manufacturing_defects)
         st.markdown(config.projects.ds_manufacturing)
 
-        st.markdown(':purple[ChatBot: GPT 3.5 Turbo]')
+        st.markdown(':blue[ChatBot: GPT 3.5 Turbo]')
         st.link_button('Repositório', config.projects.prompt_eng)
         st.markdown(config.projects.llm_gpt)
 
-        st.markdown(':purple[Lung Cancer: Predict]')
+        st.markdown(':blue[Lung Cancer: Predict]')
         st.link_button('Repositório', config.projects.lung_cancer_predict)
         st.markdown(config.projects.ds_lung)
         
-        st.markdown(':purple[Heart Diseases: Predict]')
+        st.markdown(':blue[Heart Diseases: Predict]')
         st.link_button('Repositório', config.projects.heart_diseases)
         st.markdown(config.projects.ds_heart)
 
