@@ -59,19 +59,19 @@ def main():
         st.markdown(config.projects.elt_vocaliza)
 
         st.markdown(':purple[Manufacturing Defects]')
-        st.link_button(config.projects.manufacturing_defects)
+        st.link_button('Repositório', config.projects.manufacturing_defects)
         st.markdown(config.projects.ds_manufacturing)
 
         st.markdown(':purple[ChatBot: GPT 3.5 Turbo]')
-        st.link_button(config.projects.prompt_eng)
+        st.link_button('Repositório', config.projects.prompt_eng)
         st.markdown(config.projects.llm_gpt)
 
         st.markdown(':purple[Lung Cancer: Predict]')
-        st.link_button(config.projects.lung_cancer_predict)
+        st.link_button('Repositório', config.projects.lung_cancer_predict)
         st.markdown(config.projects.ds_lung)
         
         st.markdown(':purple[Heart Diseases: Predict]')
-        st.link_button(config.projects.heart_diseases)
+        st.link_button('Repositório', config.projects.heart_diseases)
         st.markdown(config.projects.ds_heart)
 
         df_hs = pd.DataFrame(dict(
